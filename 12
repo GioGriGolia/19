@@ -1,0 +1,18 @@
+import kotlin.math.sqrt
+
+fun main () {
+
+}
+class My3DVector (var x:Double,var Y:Double,var Z:Double) {
+
+    var vectorm = My3DVector(x = 2.1, Y = 1.8, Z = 1.7)
+    var vectorn = My3DVector(x = 1.9, Y = 3.4, Z = 2.3)
+
+    fun skalarulinamravli() {
+        val Skalarulinamravli= x * x + Y * Y + Z * Z
+        println(Skalarulinamravli)
+    }
+
+    val sigrdze = sqrt((x * x) + (Y * Y) + (Z * Z))
+         
+}
